@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="This is description">
+        <meta name="keywords" content="html,html tutorials, web development">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <title>Fraud,Theft & Financial Crime</title>
+
+        <style>
+.contact1{
+    font-size: 34px;
+    border: 2px solid gray;
+    background-color:rgb(197, 192, 192);
+    padding-left: 220px;
+    padding-top: 16px;
+    height: 45px;
+}
+.contact2{
+    width: 770px;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    margin-left: 220px;
+    /* font-family:cursive; */
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contact3{
+    font-size: 27px;
+    /* border: 2px solid gray; */
+   
+    padding-left: 226px;
+    width: 845px;
+}
+.contact4{
+    width: 770px;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    margin-left: 220px;
+    /* font-family:cursive; */
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+.left{
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    /* left: 34px;
+    top: 6px; */
+    width: 93px;
+    height: 91px;
+   
+}
+.img{
+    width: 93px;
+    height: 91px;
+}
+
+
+.mid{
+    /* border: 2px solid rgb(219, 19, 19); */
+    display: block;
+     margin-left: 25%; 
+     padding-top: 23px;
+    /* width: 70px; */
+    
+
+
+}
+
+
+
+
+.right{
+  text-decoration: none;
+    position: absolute;
+    right: 34px;
+    top: 6px;
+    border: 2px solid rgb(28, 9, 83);
+    border-radius: 23px;
+   
+    background-color: rgb(216, 202, 11);
+    width: 199px;
+    height: 34px;
+    padding-left: 23px;
+    padding-top: 5px;
+    font-size: 23px;
+    margin-top: 22px;
+}
+.right a{
+    text-decoration: none;
+    color:crimson;
+   
+}
+.right a:hover{
+    color: rgb(15, 199, 138);
+}
+
+.header{
+    position: fixed;
+    /* position: sticky; */
+    background-color: rgb(21, 7, 82);
+    height: 95px;
+    width: 1500px;
+  
+}
+.navbar{
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(12, 194, 201);
+}
+
+
+
+
+</style>
+    </head>
+    <body>
+
+
+        <header class="header">
+            <!-- left for logo -->
+            <div class="left">
+              <img class="img"   src= "data:image/jpeg;base64,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"> 
+           
+            </div>
+            <!-- mid for navbar -->
+            <div class="mid">
+            
+                <ul class="navbar">
+                    <li><a href="#" class="active"> Home</a></li>
+                    <li><a href="#">Our Lawyers</a></li>
+                    <!-- <section class=" Ram">
+                        <option> Ram</option>
+                        <option> DGG</option>
+                    </section> -->
+                    <li><a href="#">Practice Area</a></li>
+                    <li><a href="#">Fees</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <!-- <li><a href="#" class="back">Free Consultation</a></li> -->
+                </ul>
+            </div>
+
+            <!-- right for btn -->
+            <div class="right">
+                <a href="#" class="back">Free Consultation</a>
+            </div>
+        </header> <br><br><br>
+
+
+
+
+
+
+
+
+
+
+        <h2 class="contact1">Theft, Fraud & Financial Crime</h2><br>
+        <p class="contact2">
+            Theft, fraud, property offences, and other financial offences are some of the most common criminal charges faced by people in Alberta. Regular Albertans, often people without criminal records, frequently find themselves facing these serious criminal allegations, which can put their livelihood – and even their freedom – at risk. Some common examples of these sorts of offences include:<br>
+            <ul class="contact2">
+                <li><b>Theft</b> (including either theft over $5000 and theft under $5000), e.g., shoplifting, theft from an employer or “embezzlement,” motor vehicle theft, etc.</li><br>
+                <li><b>Fraud</b> (including either fraud over $5000 and fraud under $5000), e.g., credit card fraud, “white collar” frauds, insurance fraud, WCB fraud, Internet fraud, bankruptcy fraud, “commercial crime,” etc.</li><br>
+                <li><b>Possession of stolen property</b> (including either possession of stolen property over $5000 and under $5000), e.g., having property that you did not steal, but that you know someone else stole.</li><br>
+                <li><b>Forgery and uttering a forged document</b>, e.g., forging or altering cheques.</li><br>
+                <li><b>False pretenses</b>, e.g., knowingly passing a bad cheque.</li><br>
+                <li><b>Identity theft</b>, e.g. “credit card skimming.”</li><br>
+                <li>Money laundering and proceeds of crime.</li>
+            </ul>
+        </p>
+<h2 class="contact3">WHAT COULD HAPPEN TO ME IF I AM FOUND GUILTY OF ONE OF THESE CRIMES?</h2>
+<p class="contact2">
+    Financial and property offences, such as theft and fraud, include a wide variety of different allegations and circumstances. As a result, the possible punishments are also wide-ranging.<br><br>
+    For example, sentences for theft and fraud can range from probation, to fines, to “house arrest,” all the way to a maximum punishment of ten to fourteen years in jail.<br><br>
+    If you are charged with theft, fraud, or another property or financial crime, is important to<a href="#"> talk to a lawyer</a> so you understand what you are facing, as well as your options. A lawyer can tell you what types of sentences people usually receive for different kinds of offences, and explain how you may be able to avoid a conviction or criminal record.<br><br>
+    For example, if you are a first-time offender with no criminal record, and if you are charged with a minor theft (such as simple shoplifting), the prosecutor might agree to “divert” the offence outside of the court system through an “alternative measures” program. This could potentially allow you to avoid a criminal record altogether.<br><br>
+    At the other end of the scale, sophisticated thefts and frauds that involve millions of dollars often result in sentences of several years in prison.<br><br>
+    Besides the sentence imposed by a judge, there are other serious consequences of being found guilty:<br>
+</p>
+<ul class="contact2">
+    <li>A criminal record can have employment consequences. Many jobs now require a criminal record check, and a conviction for an “offence of dishonesty” can make it very difficult to get some jobs.</li><br>
+    <li>A criminal record can also interfere with your ability to travel. Certain countries, such as the United States, may turn you away if you have been found guilty of one of these offences.</li><br>
+    <li>Courts can order that an offender pay restitution to the victim (i.e., pay back the amount that was stolen, or the value of the property that was taken). These restitution orders may follow you for the rest of your life, even if you later declare bankruptcy.</li><br>
+    <li>Members of professional associations, such as medical professionals, teachers, accountants, or real estate agents, can have their professional designations suspended or revoked as a result of a criminal conviction. A conviction can also interfere with career aspirations by making it harder to join one of these professions in the future.</li><br>
+    <li>It is more difficult to get a pardon (now called a “criminal record suspension”) than in the past, at it can now take ten years (or longer) before a person can apply to have their criminal record expunged.</li><br>
+    <li>If you are not a Canadian citizen, a conviction for one of these offences could have serious immigration consequences. A conviction could make it harder to become a citizen or permanent resident, or could even cause you to be deported from Canada.</li><br>
+    <li>The media often takes an interest in certain theft and fraud cases, and a conviction may be reported in the news.</li><br>
+</ul>
+
+<h2 class="contact3">HOW CAN A LAWYER HELP ME?</h2>
+<p class="contact2">
+    A lawyer can help you at every stage in the criminal process:<br>
+    <ul class="contact2">
+        <li>If you are under investigation, a lawyer can advise you about how to avoid doing things that make it more likely you will be charged, or things that might make it harder to defend the case against you. A proactive approach can often have significant benefits in defending your case.</li><br>
+        <li>If you have already been charged with a crime, a lawyer can help you understand the evidence against you, review the prosecutor’s case, discuss your side of the story, and help you understand how you might be able to fight the charges.</li><br>
+        <li>A lawyer can usually appear in court on your behalf for preliminary appearances, preventing you from missing work or school unnecessarily.</li><br>
+        <li>If you decide to plead guilty, a lawyer can help negotiate with the prosecutor, gather information that helps present you in the best light, explain the circumstances of the incident to the judge, and help get the best possible sentence.</li><br>
+        <li>If you decide to plead not guilty and have a trial, a lawyer can help organize and present your defence, and identify weaknesses in the prosecutor’s case that could help convince a judge or jury that you are not guilty. A lawyer also understands the rules of evidence and other procedural rules, which can often be very complicated – and important – in financial or property trials.</li><br>
+        <li>If you are dissatisfied with the outcome of your case, a lawyer can advise you about whether you might have grounds for an appeal.</li><br>
+        <li>After a case is resolved, a lawyer can advise you about how you may be able to have your fingerprints destroyed, and how you might avoid having record of the allegations appear in certain kinds of background checks.</li>
+    </ul>
+</p>
+
+<p class="contact2">
+    If you are charged with a crime, it is important that you find a lawyer who has experience defending people charged with these kinds of offences, who can give you good advice, and who you can trust.<br><br>
+    The lawyers at Pringle Chivers Sparks Teskey have extensive experience advising and representing people facing allegations of theft, fraud, “white collar” offences, property crime, commercial crime, and financial crime. This is one of our largest areas of practice, and all of our lawyers regularly defend these kinds of cases.<br><br>
+    We have defended people charged with everything from the most minor shoplifting cases, to sophisticated identity theft allegations, to multi-million dollar frauds. Our lawyers pride ourselves on our knowledge of the law and our practical, client-focused advice.<br><br>
+    Please <a href="#">contact us</a> to discuss your case. We would be happy to speak with you, with no obligation and free of charge, to help you understand your situation. <br>
+</p>
+<h2 class="contact3">WHAT IS “THEFT”?</h2>
+
+<p class="contact2">
+    Most people have a good understanding of the crime of theft. At its most basic, theft involves fraudulently taking or removing someone else’s property, with the intent to deprive the other person of that property, permanently or even temporarily. The crime of theft includes everything from shoplifting makeup from a drug store, all the way up to multi-million dollar embezzlement schemes.<br><br>
+    Simply taking someone else’s property without their permission is not enough to automatically make you guilty of theft. You also must have moved or taken the property “fraudulently,” or in other words, with dishonest intent.<br><br>
+    This means that you must either have known that you were taking property that did not belong to you, have been “reckless” or “willfully blind” about whether you were taking property that did not belong to you.<br><br>
+    For example, if you get confused and accidentally take someone else’s jacket from the coat check at a restaurant, this isn’t automatically a theft. Carelessness or negligence is not enough to convict you of theft. But if you “see a risk” that the jacket isn’t yours and take it anyway, this could be enough for you to be found guilty.<br><br>
+    “Colour of right” is also a defence to the crime of theft. This defence may apply if you honestly, but mistakenly, believed that you had a legal right to take someone else’s property.<br>
+</p>
+
+<h2 class="contact3">WHAT IS “FRAUD”?</h2>
+<p class="contact2">
+    Like theft, fraud is a very broad crime that covers all kinds of dishonest conduct. There are three key aspects to the offence of fraud:<br>
+    <ul class="contact2">
+        <li>A dishonest act,</li><br>
+        <li>A loss suffered by another party (or a risk of a loss), and,</li><br>
+        <li>Knowledge that the act that it could result in another person suffering a loss (or the risk of a loss).</li>
+    </ul>
+</p>
+<p class="contact2">
+    These concepts might seem simple enough, but can get complicated very quickly, and fraud can be a very difficult crime to define. If you are in doubt about whether a certain act might be fraudulent, you should get advice from a lawyer.<br>
+</p>
+<h2 class="contact3">1. DISHONEST ACT</h2>
+
+<p class="contact2">
+    In the words of the Criminal Code, a person commits fraud by “deceit, falsehood, or other fraudulent means.” This means the dishonest act can include all kinds of misbehaviour. It can include outright lies or deception, and in certain cases, it can even include withholding important facts from someone (dishonesty by omission).<br><br>
+    A judge decides whether an act was dishonest by considering how a reasonable person would interpret the person’s behaviour. The judge is concerned with the “community standards of dishonesty.” The question a judge asks is: “Would an ordinary, reasonable person, who understands this business or activity, consider this person’s actions dishonest?”<br><br>
+    Deciding whether a reasonable person would consider an act dishonest can be tricky, and depends on all the circumstances. For example, if a person sells a car, they may not have to tell the buyer about problems with the car. The law generally upholds the old adage “buyer beware.” “Sales talk” that simply exaggerates the car’s qualities might not be fraudulent. But if the buyer specifically asks the seller something (e.g. “has the car ever been in an accident?”) and the seller lies about it, a judge might consider this fraud.<br>
+</p>
+<h2 class="contact3">2. LOSS OR RISK OF LOSS</h2>
+<p class="contact2">
+    For a fraud to take place, another person needs to suffer some kind of deprivation or loss. This loss has to be “pecuniary,” or in other words, some sort of financial loss that relates to money or property. If a dishonest act only hurts someone’s feelings, or gets someone an unfair advantage that isn’t financial in any way, this isn’t enough for a person to have committed fraud.<br><br>
+    A “loss” includes even the risk of a financial loss. As a result, even if the dishonesty does not actually cause someone to lose any money or be deprived of anything valuable, a person can be guilty of fraud if there was a risk of this happening.<br>
+</p>
+<h2 class="contact3">3. KNOWLEDGE OF THE RISK OF LOSS</h2>
+<p class="contact2">
+    For someone to be guilty of fraud, they must have been personally aware that their behaviour would cause someone to suffer a loss, or that their behaviour put another person at risk.<br><br>
+    This means that truly accidental and even negligent acts may not be fraudulent. A careless (but unintentional) misstatement about a product that a person was selling would not be enough for a fraud. The person who makes a negligent-but-accidental mistake is not aware that their behaviour was creating a risk that the other person would suffer a loss, and is not guilty of fraud.<br><br>
+    The question is not whether the person personally believed their behaviour was honest, however. Someone who unreasonably believes that their dishonest behaviour was honest can still be guilty of fraud.<br><br>
+    And a person can be guilt of fraud even if he hoped that his behaviour wouldn’t cause anyone to lose money. It is awareness of the risk that matters, not the accused’s personal hopes or desires about the outcome.<br><br>
+    Finally, even if a person did not actually know that their acts put another person’s money or property at risk, they can be found guilty if they are either reckless or “willfully blind” about whether their behaviour created a risk of a loss. If a person “sees a risk” of a financial loss and decides to “take a chance,” this can be enough for a fraud.<br>
+</p>
+<h2 class="contact3">4. EXAMPLES OF FRAUDS</h2>
+<p class="contact2">
+    The technical description of fraud is complicated, but some examples of different types of fraud help explain the offence:<br><br>
+    <ul class="contact2">
+        <li>“Ponzi schemes” and similar deceptive investment schemes.</li><br>
+        <li>Credit and debit card fraud, where false or stolen cards or card numbers are used to make purchases or withdraw money.</li><br>
+        <li>Making dishonest statements or promises during a business transaction or the sale of property, e.g., selling a car with an odometer that has been rolled back.</li><br>
+        <li>Submitting false expense or reimbursement claims where there is no legal justification for the claim.</li><br>
+        <li>Insurance fraud, where someone defrauds their insurer by providing false or incomplete information.</li><br>
+        <li>Retail fraud schemes, where stolen items are returned to a store for a refund, or where bar codes are altered before an item is purchased or returned.</li><br>
+        <li>Mortgage fraud schemes, where “straw buyers” of homes are used to sign up for mortgages.</li><br>
+    </ul>
+</p>
+
+<p class="contact2">
+    What each of these very different offences has in common is (a) a dishonest act, (b) that deprives someone of money or property, (c) where the offender is aware there is a risk that someone will suffer a loss.<br>
+</p>
+<h2 class="contact3">WHAT IS “POSSESSION OF STOLEN PROPERTY”? </h2>
+<p class="contact2">
+    It is against the law to possess property that you know was obtained by the commission of another crime. When the other crime is theft, this offence is called “possession of stolen property.” This means it is against the law to possess something that you know was stolen, even if you did not personally steal it.<br><br>
+    Even if you did not actually know that something was stolen, you can be guilty of possession of stolen property if you were “reckless” or “willfully blind” about whether it was stolen.<br><br>
+    A person is “reckless” if they “see the risk” that something might be stolen, but “take a chance” by possessing it anyway. A person is “willfully blind” if they have some reason to question whether the property was stolen, but deliberately avoid asking questions that might cause them to find out whether it was stolen – because they do not want to find out whether it was stolen. It is a kind of “deliberate ignorance.”<br><br>
+    So for example, if you bought a car stereo in a back alley, for a tenth of its usual price, from someone you have never met before, out of the trunk of their car, paying cash, without any explanation from the seller for why it was so cheap… a judge may decide that you were reckless or willfully blind about whether the stereo was stolen. The judge could infer that you at least suspected that the stereo was “hot” but decided to buy it anyway.<br><br>
+    If, however, you don’t see any risk that property was stolen, and don’t see any need to ask more questions to find out if it was stolen, you have a defence (even if a more reasonable person might have asked more questions). So for example, if you bought a stolen car but had no idea that it was stolen, and you did not suspect it might have been stolen, and you did not deliberately avoid asking questions that might cause you to find out, you are not guilty of possession of stolen property.<br><br>
+    A person can also be in “possession” of the stolen property in different ways. Possessing something obviously includes personally possessing it: for example, if you have a stolen wallet in your pocket. But possession also includes situations where you have knowledge and control over the stolen property, even if you are not directly in possession of it, and even if it is “not yours.”<br><br>
+    For example, if a friend asks to store a TV in your garage, and if you know that the TV is stolen, you could be guilty of possession of stolen property. You know the TV is stolen, you know it is stored in your garage, and you have control over what gets stored in your garage. This is enough for you to “possess” the stolen property, even if the TV was not stored there for your benefit.<br>
+
+</p>
+<h2 class="contact3">WHAT ARE SOME OTHER COMMON FINANCIAL AND PROPERTY CRIMES?</h2>
+<ul class="contact2">
+    <li><b>Forgery & uttering a forged document:</b>It is against the law in some circumstances to forge a document, or to deceptively alter a genuine document. It is also against the law in many circumstances to use (or “utter”) a document you know or believe is forged. For example, a person might alter a prescription from a doctor by increasing the prescription, say from 10 pills to 100 pills, and then present the prescription to a pharmacist, in the hopes of getting more pills than were really prescribed.</li><br>
+    <li><b>Obtaining credit/property by false pretenses:</b>“False pretenses” is a specific form of fraud, often charged when a person intentionally passes a bad cheque.</li><br>
+    <li><b>Identity theft offences:</b>It is against the law to possess information that is commonly used to identify a person (such as their Social Insurance Number or driver’s licence number) if a judge can reasonably infer that the reason for possessing the information was to commit a fraud-related offence. It is also against the law to distribute or sell this kind of personal information if you know, or have reason to suspect, that the personal information will be used to commit a fraud-related crime.</li><br>
+    <li><b>Impersonation offences:</b>For example, it is against the law to fraudulently impersonate (or, in the old-fashioned language used in the Criminal Code, “personate”) another person, in order to cause some sort of advantage for themselves or another person.</li><br>
+    <li><b>Credit card offences: </b>It is a crime to steal or forge a credit card, or use a credit card knowing that it has been revoked or cancelled.</li><br>
+    <li><b>Counterfeiting offences:</b>It is against the law to make counterfeit money, or to possess or use counterfeit money if you know (or suspect) that it is counterfeit.</li><br>
+    <li><b>Motor vehicle theft:</b>Parliament has created a specific offence of theft of a motor vehicle, with mandatory minimum punishments in some cases. There is also a specific criminal offence of taking another person’s motor vehicle and using it without their consent.</li><br>
+    <li><b>Electricity or telecommunication theft:</b>There are specific criminal offences that make it against the law to dishonestly use electricity (e.g. bypass a utility company’s electricity meter) or telecommunication services (e.g. stealing cable service from the cable company).</li>
+</ul>
+
+<h2 class="contact3">ARE THERE DIFFERENT PUNISHMENTS FOR THEFTS OR FRAUDS INVOLVING A PERSON’S EMPLOYER?</h2><br>
+<p class="contact2">
+    The Alberta courts take thefts from employers very seriously. When an employee steals from an employer, the law considers this a “breach of trust.” This is an aggravating factor when a person is sentenced. In other words, this makes a judge treat the offence much more seriously.<br><br>
+    The Alberta Court of Appeal has told lower courts that, unless there are exceptional circumstances, a person should go to jail for stealing from their employer. There are sometimes ways to avoid jail where the offence does not involve much money, or where there are particularly unusual circumstances surrounding the offence. It is safe to say, however, that it is very common for people convicted of theft from an employer to go to jail.<br><br>
+    Other thefts that are also considered a “breach of trust” are treated equally seriously – for example, stealing from a club, charity, or society if you are an officer of the organization, or stealing from someone who is vulnerable and who you take care of, such as an elderly parent.<br><br>
+    You should consult with a lawyer right away if you are facing an allegation that you stole money from an employer or defrauded an employer. These are often among the most serious of thefts and frauds, and it is essential that you receive legal advice.<br>
+</p>
+
+<h2 class="contact3">SOMEONE WANTS TO TALK TO ME AND I THINK THEY HAVE QUESTIONS ABOUT WHETHER I STOLE FROM THEM (OR DEFRAUDED THEM, OR COMMITTED SOME OTHER FINANCIAL CRIME). SHOULD I TALK TO A LAWYER BEFORE I MEET WITH THEM?</h2><br>
+<p class="contact2">
+    It is not unusual for a police officer to contact someone they suspect might be involved in a crime. The officer might not start the conversation by saying “you’re a suspect, I think you did it, I’m probably going to arrest you, and I’m going to try to make you confess” – even if this is all true. Instead, the first phone call might be much less threatening. An officer could simply say that they want to “sort things out” or “get your side of the story.” Or the officer might say he needs to speak with you to “just to close the file.”<br><br>
+    Likewise, if your employer has suspicions about whether you have been stealing from the company or committing a fraud, someone from your employer may try to speak with you. A “loss prevention officer” or “corporate security officer” might visit you and ask you to speak with them, or your manager might call you into their office and start asking you questions. These situations can be even more dangerous, because everything you say can be used against you in court, but you may not have as many rights as if the police were asking the questions.<br><br>
+    Or, you may be contacted by a lawyer for someone who claims you defrauded them. You may be sent a letter demanding that you pay back money, or be served with court papers.<br><br>
+    No matter what the circumstances, it is virtually always a good idea to talk to a lawyer before you talk to anyone about these sorts of allegations. Quite often, it is difficult for a prosecutor to prove that someone is guilty of theft, fraud, or another financial crime unless they admits things that help “plug the holes” in the case. Even if you do not admit you are guilty, and even if you honestly try to explain why you are innocent, you can accidentally tell investigators things that make it easier to prove your guilt.<br><br>
+    Many people worry that consulting with a lawyer will “make them look guilty,” but it is far more important that you get good advice about your situation than worrying about how you “might look.” The potential consequences are too significant for you to take chances when speaking with the police. You have the right to talk to a lawyer, and both innocent and guilty people need legal advice. The fact that you consulted with a lawyer cannot be used to prove your guilt in court.<br><br>
+    For more detailed information about why you should call a lawyer, please read our page on <a href="#">The police want to speak with me…”</a><br>
+</p>
+
+    </body>
+    </html>

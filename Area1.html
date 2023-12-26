@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="This is description">
+        <meta name="keywords" content="html,html tutorials, web development">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <title>Impaired Driving</title>
+
+        <style>
+.contact1{
+    /* margin-top: 0px; */
+    font-size: 34px;
+    border: 2px solid gray;
+    background-color:rgb(197, 192, 192);
+    padding-left: 220px;
+    padding-top: 16px;
+    height: 45px;
+}
+.contact2{
+    width: 770px;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    margin-left: 220px;
+    /* font-family:cursive; */
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.contact3{
+    font-size: 30.7px;
+    /* border: 2px solid gray; */
+   
+    padding-left: 226px;
+    width: 845px;
+}
+.contact4{
+    width: 770px;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    margin-left: 220px;
+    /* font-family:cursive; */
+    font-family:   'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+.left{
+    border: 2px solid black;
+    display: inline-block;
+    position: absolute;
+    /* left: 34px;
+    top: 6px; */
+    width: 93px;
+    height: 91px;
+   
+}
+.img{
+    width: 93px;
+    height: 91px;
+}
+
+
+.mid{
+    /* border: 2px solid rgb(219, 19, 19); */
+    display: block;
+     margin-left: 25%; 
+     padding-top: 23px;
+    /* width: 70px; */
+    
+
+
+}
+
+
+
+
+.right{
+  text-decoration: none;
+    position: absolute;
+    right: 34px;
+    top: 6px;
+    border: 2px solid rgb(28, 9, 83);
+    border-radius: 23px;
+   
+    background-color: rgb(216, 202, 11);
+    width: 199px;
+    height: 34px;
+    padding-left: 23px;
+    padding-top: 5px;
+    font-size: 23px;
+    margin-top: 22px;
+}
+.right a{
+    text-decoration: none;
+    color:crimson;
+   
+}
+.right a:hover{
+    color: rgb(15, 199, 138);
+}
+
+.header{
+    position: fixed;
+    /* position: sticky; */
+    background-color: rgb(21, 7, 82);
+    height: 95px;
+    width: 1500px;
+  
+}
+.navbar{
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 25px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: rgb(12, 194, 201);
+}
+
+</style>
+    </head>
+    <body>
+
+        <header class="header">
+            <!-- left for logo -->
+            <div class="left">
+              <img class="img"   src= "data:image/jpeg;base64,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"> 
+           
+            </div>
+            <!-- mid for navbar -->
+            <div class="mid">
+            
+                <ul class="navbar">
+                    <li><a href="#" class="active"> Home</a></li>
+                    <li><a href="#">Our Lawyers</a></li>
+                    <!-- <section class=" Ram">
+                        <option> Ram</option>
+                        <option> DGG</option>
+                    </section> -->
+                    <li><a href="#">Practice Area</a></li>
+                    <li><a href="#">Fees</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <!-- <li><a href="#" class="back">Free Consultation</a></li> -->
+                </ul>
+            </div>
+
+            <!-- right for btn -->
+            <div class="right">
+                <a href="#" class="back">Free Consultation</a>
+            </div>
+        </header> <br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="contact1">Impaired Driving</h2>
+<p class="contact2">
+    If you have been charged with impaired driving you have also very likely been charged under the immediate roadside sanctions as well.  We recommend reading over our<a href="#"> immediate roadside sanctions</a> page as well.<br><br>
+    On December 18, 2018, an entirely new drug and alcohol impaired driving regime came into force in Canada. This decision was made partially in response to the legalization of cannabis and partially to make it easier to prove impaired driving cases. The new impaired driving regime is a substantial change from the previous impaired driving laws. The changes are so dramatic that the old laws are repealed entirely and replaced with entirely new provisions in the Criminal Code.<br><br>
+    This article will provide a brief overview of the new impaired driving regime as it applies to a typical drug or alcohol impaired investigation. Please keep in mind that every situation is unique. If you have been charged with an impaired driving offence, please contact a lawyer at Pringle Chivers Sparks Teskey. Our sound representation and experience will ensure the best possible outcome of your case.
+</p>
+<h2 class="contact3">Operating a Motor Vehicle</h2>
+<p class="contact2">
+    Before discussing the new impaired regime, it is important to understand what it means to “operate” a motor vehicle. Every driver knows that it is against the law to “drive” a vehicle while impaired by drugs or alcohol, or to “drive” while over the legal limit. Less people understand that it is also against the law to be in “care and control” of a vehicle while your ability to drive is impaired, or when you are over the legal limit. In attempt to simplify the law, the new impaired driving regime now defines “operate” as “to drive [a motor vehicle] or to have care or control of it.” Therefore, even if you are not actively “driving” a motor vehicle, you can still be found to be “operating” a motor vehicle.<br><br>
+    If you are found in the driver’s seat of a vehicle, you are presumed to be in care and control of that vehicle – whether or not the vehicle is running, and whether or not the keys are in the ignition. For example, a person who is asleep in the driver’s seat of a parked vehicle with their keys in their pocket is still presumed to be in care and control of that vehicle. All too often, people who never intended to drive while impaired find themselves charged with a criminal offence because the police found them sitting in the driver’s seat.<br><br>
+    If you can show that you were not sitting in the driver’s seat for the purpose of operating the vehicle, and if there was no significant risk that you could accidentally put the vehicle in motion, it may be possible to convince a judge that you were not in care and control of the vehicle. You should consult with a lawyer to discuss your chances of success at trial immediately.
+</p>
+<h2 class="contact3">The New Impaired Driving Offences</h2>
+<p class="contact2">
+    Under the old impaired driving regime, there were three main impaired driving offences. You may already be familiar with these offences.<br><br>
+    <ul class="contact2">
+        <li><b>Operation while impaired by alcohol or a drug – Criminal Code section 320.14(1)(a):</b> It is an offence to operate a motor vehicle while your ability to do so is impaired to any degree by alcohol or a drug or by a combination of alcohol and a drug.</li><br>
+        <li><b>Operation while blood alcohol concentration is equal to or over the legal limit – Criminal Code section 320.14(1)(b):</b> It is now an offence to have a blood alcohol concentration equal to or over 80 mg of alcohol in 100 mL of blood within two hours after ceasing to operate a motor vehicle.</li><br>
+        <li> <b>Operation while blood drug concentration is equal to or over the legal limit – Criminal Code section 320.14(1)(c):</b>  It is now an offence to a have a blood drug concentration equal to or over the legal limit within two hours after ceasing to operate a motor vehicle. The legal limit is set by a separate regulation.</li><br>
+        <li><b>Operation while blood alcohol and blood drug concentration is equal to or over the legal limit – Criminal Code section 320.14(1)(d): </b>It is now an offence to a have a blood alcohol and blood drug concentration equal to or over the legal limit within two hours after ceasing to operate a motor vehicle. The legal limit is set by a separate regulation.</li><br>
+        <li><b>Operation with low blood drug concentration – Criminal Code section 320.14(4):</b>It is now an offence to have a blood drug concentration equal to or over the “low drug” limit but less than the legal limit within two hours after ceasing to operate a motor vehicle. This “low drug” limit is set by a separate regulation.</li><br>
+        <li><b>Failure or refusal to comply with a demand – Criminal Code section 320.15(1): </b>It is now an offence to fail or refuse to comply with a demand made by a peace officer to test for the presence of alcohol or a drug OR to refuse to provide samples of your blood or urine on demand.</li>
+    </ul>
+   <p class="contact2"> While these new offences may seem similar to the old offences, a number of important things have changed. The following sections will discuss some of these major changes to help you better understand the new impaired driving regime. If you have any questions, a lawyer from Pringle Chivers Sparks Teskey would be happy to help.</p>
+</p>
+<h2 class="contact3">The offence of “operation while impaired by alcohol or a drug”</h2>
+<p class="contact2">
+    It is against the law to operate a motor vehicle while your ability to do so is impaired by alcohol or a drug. This offence is very similar to the old offence of “impaired operation” that you may already be familiar with. The only major change between the old and new offence is that new offence adds language that “any level of impairment” will make out the offence. This is not a really a change in the law – the courts have long recognized that even a slight amount of impairment by alcohol, a drug or combination of both will make out the offence.<br><br>
+    You may be wondering when is a person “impaired”? “Impairment” is not the same thing as “intoxication.” Your ability to drive does not need to be severely impaired or much worse than normal for you to be found guilty. It is enough that a judge is convinced that your ability to drive was at least slightly impaired because you had consumed alcohol, a drug or a combination of both. The police do not need to be able to prove your blood alcohol or drug level in order for you to be convicted of the offence of “operation while impaired by alcohol or drug” – there are separate offences for driving over the legal limit (see below).<br>
+    To prove a person’s ability to operate a motor vehicle was impaired by alcohol or a drug, police officers will testify about signs of impairment they observed. For example:<br>
+    <ul class="contact2">
+        <li> Observations of any unusual driving pattern, such as weaving between lanes or hitting the curb.</li><br>
+        <li>Witnesses’ observations about the driver’s consumption of alcohol or a drug.</li><br>
+        <li>An odour of an alcoholic beverage coming from the driver’s breath.</li><br>
+        <li>An odour of marijuana coming from the driver or from inside the motor vehicle.</li><br>
+        <li>Slurred speech or incoherent comments.</li><br>
+        <li>Red eyes or glossy eyes.</li><br>
+        <li>Empty alcohol containers or drug paraphernalia found in the person’s vehicle.</li><br>
+        <li>Stumbling, difficulty standing, fumbling with documents, or other coordination problems.</li><br>
+        <li>The size and reactivity of a person’s pupils.</li><br>
+
+    </ul>
+
+
+    <p class="contact2">
+        There are sometimes other explanations for a person’s behaviour or signs of impairment other than overconsumption of alcohol or a drug. At trial, the Crown Prosecutor must not only prove that a person has consumed drugs or alcohol, but also prove beyond a reasonable doubt that the person’s ability to drive was impaired, and that it was alcohol or a drug that caused the impairment. It is important to remember that slight symptoms of impairment do not always mean that a person’s ability to drive is impaired.
+    </p>
+</p>
+
+<h2 class="contact3">What does “within two hours after ceasing to operate” mean?</h2>
+<p class="contact2">
+    Under the old impaired driving regime, the Crown Prosecutor would have to prove at trial that your blood alcohol or drug level was over the legal limit at the time of driving or when you last had care and control of a motor vehicle. In order to prove your blood alcohol or drug level at trial, the Crown Prosecutor would rely on “certificates of analysis” (that is, the results of the testing of your breath or blood). Frequently, these were the printouts from the breathalyzer. However, before a judge could consider these “certificates of analysis,” the Crown Prosecutor would have to show that they were accurate. The old impaired driving regime created a checklist that the Crown Prosecutor would have to follow to put these certificates before a judge.<br><br>
+    In an effort to simplify the process of putting a “certificate of analysis” before the judge at a trial, the new impaired driving regime does not require the Crown Prosecutor to prove your blood alcohol or drug level at the time of driving. Instead, the Crown Prosecutor must prove that your blood drug or alcohol level was over the legal limit “within two hours after ceasing to operate” the motor vehicle. Remember, to “operate” a motor vehicle now means “driving” and “care and control.”<br><br>
+    So what does the “within two hours after ceasing to operate” mean? This means that if your blood alcohol or drug level was over the legal limit at any time TWO HOURS after you stopped operating a motor vehicle, you can be convicted of an offence. As you might imagine, samples of breath or blood are taken by the police AFTER you have stopped operating a motor vehicle – the breathalyzer is at the police station after all! If those samples are taken WITHIN two hours, and they are over the limit, you could be convicted of an offence.<br><br>
+    In the case of alcohol, if the samples are taken AFTER two hours, the new impaired driving regime sets out a formula to calculate what a person’s blood alcohol level would have been two hours after a person ceased to operate a motor vehicle.<br><br>
+    In the case of drugs, even if the samples are taken AFTER two hours, the Crown Prosecutor does not need to prove what a person’s blood drug level would have been two afters after a person ceased to operate a motor vehicle.
+</p>
+
+<h2 class="contact3">What if I consume alcohol or drugs after I stop operating a motor vehicle?</h2>
+<p class="contact2">
+    The language “within two hours after ceasing to operate” creates a very clear problem. What if you stop driving your vehicle and then consume alcohol or drugs? It is not difficult to imagine a situation where this may happen: let’s say you were the designated driving for your friends. You did not consume any alcohol and dropped all of your friends off at home. After returning home yourself, you went inside and consumed a couple of beers. Your blood alcohol level may be over the legal limit “within two after ceasing to operate” your motor vehicle, but not at the time you were driving! <br><br>
+    Fortunately, the new impaired driving regime sets out a number of exceptions that will hopefully avoid a situation like that from occurring. You will not commit the offence of “operation while blood alcohol concentration is equal to or over the legal limit” if all of the following conditions are met:<br><br>
+
+    <ul class="contact2">
+        <li> You consumed the alcohol after ceasing to operate the motor vehicle;</li><br>
+        <li>When you consumed the alcohol, you had no reasonable expectation that you would be asked to provide a sample of your breath or blood; and</li><br>
+        <li>Based on your alcohol consumption, your blood alcohol concentration would have been below the legal limit when you were last operating a motor vehicle (as determined by a formula).</li><br>
+    </ul>
+
+    <p class="contact2">
+        Similarly, there are a number of exceptions for the offences of “operation while blood drug concentration is equal to or over the legal limit” and “operation with low blood drug concentration.” You will not commit an offence if the following conditions are met.<br>
+        <ul class="contact2">
+            <li >You consumed the drug after ceasing to operate the motor vehicle; and</li><br>
+            <li> When you consumed the drug, you have no reasonable expectation that you would be asked to provide a sample of your breath or blood.</li><br>
+        </ul>
+    </p>
+    <p class="contact2">
+        These exceptions are strict and somewhat technical. They are designed this way to prevent people from attempting to “cheat the system.” It is a common myth that it is a good idea to consume alcohol after you have been stopped by police so that it cannot be proven what your blood alcohol concentration was when you were driving. That was not a good idea under the old regime. It is certainly not a good idea under the new regime! If you consume alcohol after ceasing to operate a motor vehicle when you have a reasonable expectation that the police will ask for a sample of your breath or blood, you could still be convicted of an offence.
+    </p>
+</p>
+<h2 class="contact3">What is the “legal limit”?</h2>
+<p class="contact2">
+    Under the old impaired driving regime, it was an offence to drive a motor vehicle if your blood alcohol concentration was OVER 80 mg of alcohol per 100 mL of blood. That is why the offence was frequently called an “over 80.” There was no legal limit for drugs.<br><br>
+    The new impaired driving regime has introduced a number of new “legal limits” for drugs as well as changed the legal limit for alcohol. Now, it is an offence to operate a motor vehicle if your blood alcohol concentration is EQUAL TO OR OVER 80 mg of alcohol per 100 mL of blood. Therefore, you can now be convicted of an offence if your blood alcohol concentration is 80 mg of alcohol per 100 mL of blood. Be careful – the nickname “over 80” is no longer accurate!<br><br>
+    Your own blood alcohol level depends on a number of factors, such as how much you have had to drink, the alcohol content of each drink, when you consumed each drink, your weight, your gender, how quickly you absorbed the alcohol, and how quickly your body eliminates alcohol. It is impossible to precisely estimate a person’s expected blood alcohol level based on the amount of alcohol a person has consumed, since everyone metabolizes alcohol differently.<br><br>
+    Unfortunately, there is significantly less scientific data about how different drugs affect different people. While you may feel relatively confident that your blood alcohol level is under the legal limit three hours after consuming a single pint of beer, it is impossible to say when it is “safe” to drive after consuming a drug. Similarly, it is impossible to say how much THC will be in your blood after smoking a joint or taking a hit off of a bong. Therefore, if you consume any amount of a drug, you should not operate a motor vehicle.<br><br>
+    There are ways for ways for a lawyer to defend you against a charge of operating a motor vehicle while your blood alcohol or drug concentration is over the legal limit.  In most cases, before the Crown Prosecutor can use any “certificates of analysis” as proof of your actual blood alcohol or drug level, the prosecutor must prove that the samples were taken in accordance with certain legal requirements set out in the Criminal Code. They may not be able to do so. It is also possible to apply to the court to have the “certificates of analysis” excluded from the trial because the samples were taken in a way that violated your constitutional rights under the Canadian Charter of Rights and Freedoms. There are a number of possible defenses to these charges. You should consult with a lawyer to determine your chances of success.
+</p>
+
+<h2 class="contact3">What does “low blood drug concentration” mean?</h2>
+<p class="contact2">
+    In addition to the “legal limits” discussed above, the new impaired driving regime introduced the new offence of “operation with low blood drug concentration.” This new offence is a straight summary conviction offence that carries a maximum penalty of $1000. The offence was created because there are situations where a person may have a drug concentration in their blood that may pose a safety risk but does not necessarily rise to the level of risk posed by driving over the “legal limit.”<br><br>
+    Currently, this “low blood drug concentration” offence only applies to THC. Therefore, if your blood drug concentration is MORE THAN  2 ng of THC in 1 mL of blood but LESS THAN 5 ng of THC in 1 mL of blood, you could be charged with this offence.
+
+</p>
+
+<h2 class="contact3">The offence of “failure or refusal to comply with a demand”</h2>
+<p class="contact2">
+    If the police have the legal right to demand a sample of your breath or blood, it is a criminal offence to fail or refuse to provide a suitable sample. There is an exception, however, if you have a reasonable excuse for failing to provide a valid sample. Some possible examples of a reasonable excuse include:<br><br>
+    <ul class="contact2">
+        <li>If there is a mechanical problem with device;</li><br>
+        <li>If you have a medical condition that makes it dangerous or impossible for you to provide a valid breath sample; and</li><br>
+        <li>If you do not understand that the officer is demanding that you provide a breath or blood sample because you do not speak the same language as the officer.</li>
+    </ul>
+    <p class="contact2">
+        In addition, the police officer may not have had the legal right to demand a sample in the first place. If the officer did not have the right to force you to provide a sample, it is not against the law for you to refuse to provide a sample.<br><br>
+        There are possible defences to a charge of refusing a breath demand, so it is important to consult with a lawyer who can advise you whether you might have a defence.
+    </p>
+</p>
+<h2 class="contact3">What kind of demands can a peace officer make?</h2>
+<p class="contact2">
+    The new impaired driving regime introduces a number of major changes to the types of demands a police office can make and when they can make those demands. The type of demands can be broken down into three categories: mandatory, screening and evidentiary.
+</p>
+
+<h2 class="contact4">Mandatory Alcohol Screening Demands</h2>
+<p class="contact2">
+    Perhaps the biggest change introduced by the new impaired driving regime is the creation of the “mandatory alcohol screening” demand. Under the old regime, a police officer required some basis to detain a person and make a demand for a sample of their breath for testing in an approved screening device. Now, if a police officer has an approved screening device in their possession, the officer can make a demand for sample of your breath for testing in that device. The police officer does not require a suspicion that you have consumed alcohol. For this reason, the “mandatory alcohol screening” demand is sometimes called a “suspicion-less” or “random” demand.<br><br>
+    Practically speaking, this new demand will grant the police greater power to screen drivers for alcohol consumption even though the driver may not display any signs of consumption or impairment. If the police officer does not have an approved screening device in their possession, they will not be able to detain you to wait for another officer to deliver the device. If the police wish to detain you to wait for the arrival of an approved screening device, they will need to use one of the demands discussed below.<br><br>
+    Like the roadside screening demand discussed below, the results of a “mandatory alcohol screening demand” cannot be used to prove your blood alcohol level at trial.
+</p>
+<h2 class="contact4">Screening Demands</h2>
+<p class="contact2">
+    If a police officer has “reasonable grounds to suspect” that you have alcohol or a drug in your body, the officer can make a “screening demand” to the test for the presence of alcohol or drug. Before a police officer can require you to comply with a screening demand, the officer must have some reason to suspect that you have alcohol or a drug in your body. They do not need to believe you are impaired, intoxicated, or that you are over the legal limit. It is enough that the officer reasonably suspects that you have some alcohol or drug in your system. This is a relatively low level of proof. If you fail the roadside screening test you will almost always be arrested. The results of a roadside screening test cannot be used to prove your blood alcohol or drug level at a criminal trial.<br><br>
+    The most common type of screening demand, and the one you are likely familiar with, is a demand that you blow into an approved screening device, also called an ASD, to test for the presence of alcohol. Most devices are calibrated to give one of three different results: “pass,” “warn,” or “fail.” If you blow a “fail,” it is likely that you will be arrested for impaired driving. If you blow a “warn,” the officer may issue a suspension under the Traffic Safety Act, but it is unlikely you will be charged with a criminal offence.<br><br>
+    The new impaired driving regime also introduces the use of an approved screening device to test for the presence of a drug. Currently, only one such device has been approved for use in Canada. The Dräger DrugTest 5000 has been approved to test for the presence of THC in a person’s saliva. Just like the screening demand for an alcohol, in order for a police officer to make a demand for a sample of your saliva, the officer must have a reasonable suspicion that you have THC in your body.<br><br>
+    Finally, a police officer can demand that you participate in a standard field sobriety test to determine if you have alcohol or a drug in your body. The standard field sobriety test consists of the following tasks:<br><br>
+    <ul class="contact2">
+        <li>Horizontal gaze nystagmus test – This is a complicated name for a relatively straightforward test. You will be asked to stand up straight, and without moving your head, use your eyes to follow a point that is moved horizontally across your field of vision. Usually this point is a finger, pen or pen light.</li><br>
+        <li>Walk and turn test – The test requires you to walk 9 heel-to-toe steps. You will then be asked to about-turn on one foot and walk 9 heel-to-toe steps back the way you came.</li><br>
+        <li>One leg stand test – This test requires you to stand on one foot with the other foot lifted off the ground approximately 15 cm. Your arms must remain at your side and the toe of your raised foot must be pointed down. You must count out loud to 30 (one-one-thousand, two-one-thousand, etc).</li><br>
+    </ul>
+</p>
+<h2 class="contact4">Evidentiary Demands</h2>
+<p class="contact2">
+    If a police officer has “reasonable grounds to believe” that your ability to operate a motor vehicle is impaired to any degree by alcohol or a drug, the officer can demand an evidentiary sample of your breath, blood, urine or saliva or make a demand that you participate in a drug recognition evaluation. If you have failed a roadside screening test, the police will usually rely on that “fail” result to conclude that your ability to drive is probably impaired. Therefore, if you fail a roadside screening test, the police can use that result to demand that you provide evidentiary samples. Alternatively, even if the police officer does not perform a roadside screening test, the officer can rely on any signs of impairment they observe to form their “reasonable grounds.” The results of these evidentiary demands can be used to prove your blood alcohol or drug level at trial.<br><br>
+    Once again, the most common type of evidentiary demand, and the one you are likely familiar with, is providing a sample of your breath into a “breathalyzer” or “intoxilyzer.” These evidentiary devices are calibrated to provide a very accurate reading of a person’s blood alcohol level. If a demand for a sample of your breath is made, you will be required to provide two samples into the device. The “certificates of analysis” that are produced by the device can be used as evidence of your blood alcohol level at trial.<br><br>
+    If a police officer believes that you are incapable of providing a sample of your breath or it would be impracticable to take a breath sample, the officer can demand a qualified medical practitioner or qualified technician to take a sample of your blood. This situation usually occurs when a person has been hospitalized as a result of a motor vehicle collision. A sample of your blood will only be taken if a medical practitioner determines it would be safe to take the sample.<br><br>
+    If a police officer has reasonable grounds to believe your ability to operate a motor vehicle is impaired by a drug, the officer can demand that you provide a sample of your blood or that you participate in a drug recognition evaluation. As above, the sample of blood can only be taken by a qualified medical practitioner or a qualified technician. This is most likely to occur if you are hospitalized. A drug recognition evaluation is a series of tasks that must be performed. Your blood pressure, temperature and pulse will be taken. The officer will also examine your pupils, nasal and oral cavities as well as look for evidence of injection sites. At the conclusion of the evaluation, if the officer has reasonable grounds to believe that a drug has impaired your ability to operate a motor vehicle, the officer can demand a sample of your saliva, urine or blood to confirm their findings.
+</p>
+
+<h2 class="contact3">What are the consequences of a conviction of an impaired driving offence?</h2>
+<p class="contact2">
+    A person is said to be convicted of a criminal offence if they plead guilty or are found guilty after trial. If you are convicted of criminal offence, you will be sentenced by a judge. Under the new impaired driving regime, the Criminal Code specifies the minimum and maximum penalties. Generally speaking, for a first offence where no on is hurt or killed, a person will most likely be sentenced to a fine. For a second or subsequent conviction, the mandatory minimum sentence is a term of imprisonment.<br><br>
+    The new impaired driving regime also introduces a number of new “aggravating circumstances” that sentencing judges must consider when determine the appropriate sentence. If an “aggravating circumstance” is present, the sentencing judge will impose a harsher sentence:<br><br>
+    <ul class="contact2">
+        <li>The offence resulted in bodily harm or death;</li><br>
+        <li>You were racing another vehicle;</li><br>
+        <li>A person under the age of 16 years was a passenger in your vehicle;</li><br>
+        <li>You were being paid to operate the motor vehicle;</li><br>
+        <li>Your blood alcohol concentration was equal to or exceeded 120 mg of alcohol in 100 mL of blood;</li><br>
+        <li>You were operating a large motor vehicle, like a bus or a tractor trailer; and</li><br>
+        <li>You were not authorized to drive a motor vehicle at the time (you were suspended/disqualified from driving or you did not have a driver’s license).</li>
+    </ul>
+</p>
+<h2 class="contact3">What are the minimum sentences?</h2>
+<h2 class="contact4">Alcohol impaired driving offences</h2>
+<ul class="contact2">
+    <li>First offence</li>
+    <ul >
+        <li>Blood alcohol content between 80-119 mg of alcohol per 100 mL of blood – $1000 fine</li><br>
+        <li>Blood alcohol content between 120-159 mg of alcohol per 100 mL of blood – $1500 fine</li><br>
+        <li>Blood alcohol content over 160 mg of alcohol per 100 mL of blood – $2000 fine</li>
+    </ul>
+    <li> Second offence – 30 days imprisonment</li>
+    <li>Third offence – 120 days imprisonment</li>
+</ul>
+<h2 class="contact3">Refusal or failure to comply with demand</h2>
+<ul class="contact2">
+    <li>First offence – $2000 fine</li>
+    <li>Second offence – 30 days imprisonment</li>
+    <li>Third offence – 120 days imprisonment</li>
+</ul>
+
+<h2 class="contact3">Drug impaired driving offences</h2>
+<p class="contact2">
+    5 ng or more of THC per 1 mL of blood OR any detectable level of LSD, psilocybin, psilocin, ketamine, PCP, cocaine, methamphetamine, 6-mam OR 5 mg/L of GHB<br><br>
+    <ul class="contact2">
+        <li>First offence – $1000 fine</li><br>
+        <li>Second offence – 30 days imprisonment</li><br>
+        <li>Third offence – 120 days imprisonment</li>
+    </ul>
+    <h2 class="contact3">Alcohol and drug impaired driving offences</h2>
+    <p class="contact2">
+        50 mg of alcohol per 100 mL of blood and 2.5 ng or more of THC per 1 mL of blood<br><br>
+        <ul class="contact2">
+            <li>First offence – $1000 fine</li>
+            <li>Second offence – 30 days imprisonment</li>
+            <li>Third offence – 120 days imprisonment</li>
+        </ul>
+    </p>
+    <h2 class="contact4 ">“Low level” drug impaired driving offence</h2>
+    <p class="contact2">
+        More than 2 ng but less than 5 ng of THC per 1 mL of blood
+        <ul class="contact2">
+            <li>Maximum $1000 fine</li>
+        </ul>
+    </p>
+</p>
+<h2 class="contact3">What will happen to my driving privileges if I am convicted of an impaired driving offence?</h2>
+<p class="contact2">
+    If you are convicted of an impaired driving offence, you will be disqualified from driving:<br><br>
+    <ul class="contact2">
+        <li>For a first offence, not less than one year and not more than three years, plus the entire period to which you are sentenced to imprisonment;</li><br>
+        <li>For a second offence, not less than two years and not more than 10 years, plus the entire period to which you are sentenced to imprisonment; and</li><br>
+        <li>For each subsequent offence, not less than three years, plus the entire period to which you are sentenced to imprisonment.</li>
+    </ul>
+    <p class="contact2">
+        If you are convicted of a “low blood drug concentration offence,” the sentencing judge has discretion as to whether or not to impose a driving prohibition. The maximum prohibition that can be imposed is one year.
+    </p>
+</p>
+<h2 class="contact3">Will I be eligible for the interlock program?</h2>
+<p class="contact2">
+    Even though a driving prohibition may be imposed by a sentencing judge, you may be eligible to have an interlock device, or “blow-box,” installed in your vehicle. This will allow you to maintain some driving privileges during the period of probation. The new impaired driving regime specifies the following waiting periods before you are eligible to install the device:
+    <ul class="contact2">
+        <li>In the case of a first offence, a period, if any, that may be fixed by order of the court – that is, you may be eligible for interlock right away;</li><br>
+        <li>In the case of a second offence, a period of three months after the day on which the sentence is imposed or any longer period that may be fixed by order of the court; and</li><br>
+        <li>In the case of a subsequent offence, a period of six months after the day on which the sentence is imposed or any longer period that may be fixed by order of the court.</li>
+    </ul>
+</p>
+
+<h2 class="contact3">What if I have been charged with an impaired driving offence causing bodily harm or death?</h2>
+<p class="contact2">
+    Where injuries result from an accident, the penalties for a conviction for impaired driving offences can be very severe. The penalties are even harsher where someone has died. A conviction for impaired driving causing bodily harm routinely results in jail, and sentences for impaired driving causing death can result in long penitentiary sentences. If a person is charged with an impaired driving offence stemming from an incident where someone has been hurt or has died it is essential that they seek legal advice immediately to help protect their rights.
+</p>
+<h2 class="contact3">Your defence for an impaired driving offence</h2>
+<p class="contact2">
+    If you are currently facing charges for impaired driving, it is important that you speak with an experienced DUI lawyer. Understanding your case, impaired driving charges, and arrest is essential to knowing all of your options. The criminal attorneys and legal team at Pringle Chivers Sparks Teskey have a wide range of expertise when it comes to impaired driving. Our lawyers can help provide you with sound advice and a strong defence. Call our Edmonton office today for more information at (587) 400-3941.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="comment21">
+ 
+    <h2 class="contact3">STRAIGHTFORWARD, DOWN-TO-EARTH, NO-NONSENSE ADVICE</h2>
+    <p class="contact2">
+        We know that being accused of a crime can be confusing, stressful, and unexpected. We pride ourselves on our practical, client-centered approach to help you find a solution to your legal problems.<br><br>
+        We’re here to help. We are happy to provide you with a free, no-obligation consultation where we can explain your options and help you understand the criminal charges you are facing. If you would like to speak to one of our lawyers, please contact us.<br><br>
+        Sound legal representation is the only way to achieve successful results when facing serious criminal charges. Pringle, Chivers, Sparks, Teskey offers experienced criminal lawyers who can provide you with expert advice and counsel so that your rights are protected.
+    </p>
+   </div>
+
+ <div class="comment22">
+     <div class="footer3">
+<!-- <a href="#"><img  class="location"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVHtZU1juC76xWpceNQlWUd_wLRr2R1p7TSw&usqp=CAU"></a> -->
+<a href="#"><img  class="location"   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsGil5NXIBa_LfQ7FT6dcWyFJUFp87za6T0A&usqp=CAU"></a>
+</div>
+<div class="footer2">   
+<h2 class="footer" >Pringle Chivers Sparks Teskey</h2>
+   <p class="footer1">
+        300-10150 100 Street NW Edmonton, <br><br>
+        Alberta, T5J 0P6</p>
+
+</div>
+
+
+<div class="comment23">
+    <div class="footer4">
+        <!-- <a href="#"> <img class="footer5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT29V2cwp87Bfjr9IxYVsns2Lgn9qdyPGvCkQ&usqp=CAU"></a> -->
+        <!-- <a href="#"> <img class="footer5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2n4Lakp51zwh80z9iAJJMsbH3OhwabJztQ&usqp=CAU"></a> -->
+        <a href="#"> <img class="footer5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhM2XwENkkmLwGIYxKyMp_A807dag61TEfPZ6sgLo&usqp=CAU"></a>
+          </div>
+    <h2 class="footer6">Call us 24/7: (587) 400-2113</h2>
+</div>
+
+<div class="comment23">
+    <div class="footer4">
+         <a href="#"> <img class="footer7" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaXpVGTF4oUQfbYye1UaGrxCWUV_jFpVJSSvo0k04&usqp=CAU"></a>
+          </div>
+    <h2 class="footer6">lawyers@pringlelaw.ca</h2>
+</div>
+<br><br><hr>
+<h3 class="Rahul">Copyright © 2022 Pringle Chivers Sparks Teskey | Disclaimer</h3>
+
+
+
+
+
+
+
+    </body>
+    </html>
